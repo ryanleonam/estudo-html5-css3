@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias HTML5</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Aumente e diminua o tamanho da sua janela para testar a responsividade da imagem </p>
+    <p>Crie uma tag &lt;picture&gt; e introduza a &lt;img&gt; dentro dela. Crie varios tamanhos de imagens num editor e adeque com &lt;source media type&gt;.</p>
+
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/cyberpunk-450w.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/cyberpunk-900w.jpg" type="image/jpg">
+        <img src="imagens/cyberpunk-1200w.jpg" alt="cyberpunk leonardoai">
+    </picture>
+
+    <h1>Reprodução de áudios</h1>
+    <audio src="audios/virtual-roaming-chargers.mp3" controls autoplay></audio>
+    <p>&lt;audio controls autoplay&gt;</p>
+
+</body>
+</html>
