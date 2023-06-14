@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OL e UL</title>
+</head>
+<body>
+    <h1>OL / UL</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>Segundo o material de estudos do Guanabara:</p>
+    <blockquote cite="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/09%20-%20Listas%20HTML.pdf">A <abbr title="HyperText Markup Language">HTML</abbr> chama de <strong>ordered lists</strong> todas aquelas listas onde a ordem dos itens é algo muito importante. Um passo-a-passo para criar um bolo, uma lista de aprovados no vestibular e uma lista com os carros mais caros do mundo são exemplos de listas ordenadas.</blockquote>
+    <P>Para criar uma <strong>ordered list</strong> ultilize a tag &lt;ol&gt; e a tag &lt;li&gt; para identificar os itens da lista</P>
+    <h3>Exemplo:</h3>
+    <ol type="I" start="5"><strong>Tarefas do dia</strong>
+        <li>Acordar</li>
+        <li>Café da manhã</li>
+        <li>Escovar os dentes</li>
+        <li>Lançar notas</li>
+        <li>Levar filho à escola</li>
+    </ol>
+    <p>Você pode usar o parâmetro TYPE para determinar os marcadores da lista, como A para listas alfabéeticas, 1 para numeradas e I para algarismos romanos.</p>
+    <p>Usando o parâmetro START você da inicio a contagem da lista</p>
+    <h2>Listas não Ordenadas</h2>
+    <p>Para listas onde a ordem não importa ultilize a tag &lt;ul&gt;</p>
+    <h3>Exemplo:</h3>
+    <ul type="circle" > <strong>Lista de compras</strong>
+        <li>Banana</li>
+        <li>Maçã</li>
+        <li>Achocolatado</li>
+        <li>Carne</li>
+        <li>Sabão</li>
+    </ul>
+    <p>Tipos de marcadores para as UL são "circle", "disc" e "square" </p>
+    <h2>Listas Mistas e de Definição</h2>
+    <p>Crie UL dentro de OL ou vice-versa.</p>
+    <h3>Exemplo:</h3>
+    <ol><strong>Restaurantes</strong>
+        <li>Cosi</li>
+        <ul type="disc">
+            <li>Croquete de pato</li>
+            <li>Rotti</li>
+            <li>Massas</li>
+        </ul>
+        <li>SouthSide</li>
+        <ul type="disc">
+            <li>Camarão empanado</li>
+            <li>Risini de camarão</li>
+            <li>Gyosa de rabada</li>
+        </ul>
+        <li>Street Food</li>
+        <ul type="disc">
+            <li>Cachorro quente</li>
+            <li>Hamburguer</li>
+            <li>Pastel</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <p>Ultilize a tag &lt;dt&gt; para o <strong>termo</strong> e &lt;dd&gt; para a <strong>definição</strong></p>
+    <h3>Exemplo:</h3>
+    <dt>Termo</dt>
+    <dd>
+        <ol>
+            <li>Unidade do léxico; vocábulo, palavra.</li>
+            <li>Fim, remate ou conclusão no espaço ou no tempo.</li>
+        </ol>
+    </dd>
+    <dt>Definição</dt>
+    <dd>
+        <ol>
+            <li>Ato ou efeito de definir(-se)</li>
+            <li>Delimitação exata, estabelecimento de limites.</li>
+        </ol>
+    </dd>
+    <br>
+    <p>Volte ao <a href="../index.html">index</a></p>
+
+</body>
+</html>
